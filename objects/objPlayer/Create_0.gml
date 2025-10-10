@@ -15,3 +15,4 @@ face = DOWN;
 headphonesAnimating = false;
 socialBattery = 100;
 headphoneCharge = 100;
+fainted = false;
