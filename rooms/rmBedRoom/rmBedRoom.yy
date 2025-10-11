@@ -52,6 +52,7 @@
     {"name":"inst_6ECC7B74","path":"rooms/rmBedRoom/rmBedRoom.yy",},
     {"name":"inst_623084D1","path":"rooms/rmBedRoom/rmBedRoom.yy",},
     {"name":"inst_69A1FDD7","path":"rooms/rmBedRoom/rmBedRoom.yy",},
+    {"name":"inst_5B541DBC","path":"rooms/rmBedRoom/rmBedRoom.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -104,6 +105,7 @@
         {"$GMRInstance":"v2","%Name":"inst_2E5B4191","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":1,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E5B4191","objectId":{"name":"objBookshelf","path":"objects/objBookshelf/objBookshelf.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":48.0,},
         {"$GMRInstance":"v2","%Name":"inst_623084D1","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_623084D1","objectId":{"name":"objWarpBlock","path":"objects/objWarpBlock/objWarpBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":1.0,"x":128.0,"y":208.0,},
         {"$GMRInstance":"v2","%Name":"inst_69A1FDD7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_69A1FDD7","objectId":{"name":"objSocialBattery","path":"objects/objSocialBattery/objSocialBattery.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"$GMRInstance":"v2","%Name":"inst_5B541DBC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B541DBC","objectId":{"name":"objHeadphoneBattery","path":"objects/objHeadphoneBattery/objHeadphoneBattery.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":272.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":14,"SerialiseWidth":18,"TileCompressedData":[
           -38,1,1,7,-12,8,1,9,-4,1,1,14,-12,15,1,16,-4,1,3,14,15,10,-8,11,3,12,15,16,-4,1,3,14,15,17,-5,18,6,1073741868,

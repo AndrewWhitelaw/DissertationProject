@@ -20,6 +20,7 @@
     {"name":"objBed","order":4,"path":"objects/objBed/objBed.yy",},
     {"name":"objBookshelf","order":2,"path":"objects/objBookshelf/objBookshelf.yy",},
     {"name":"objCabinet","order":3,"path":"objects/objCabinet/objCabinet.yy",},
+    {"name":"objHeadphoneBattery","order":10,"path":"objects/objHeadphoneBattery/objHeadphoneBattery.yy",},
     {"name":"objHeadphonesOn","order":9,"path":"objects/objHeadphonesOn/objHeadphonesOn.yy",},
     {"name":"objPause","order":7,"path":"objects/objPause/objPause.yy",},
     {"name":"objSocialBattery","order":8,"path":"objects/objSocialBattery/objSocialBattery.yy",},
