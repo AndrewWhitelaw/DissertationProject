@@ -30,6 +30,7 @@
     {"name":"sprBed","order":9,"path":"sprites/sprBed/sprBed.yy",},
     {"name":"sprBookshelf","order":7,"path":"sprites/sprBookshelf/sprBookshelf.yy",},
     {"name":"sprCabinet","order":8,"path":"sprites/sprCabinet/sprCabinet.yy",},
+    {"name":"sprHeadphoneBattery","order":16,"path":"sprites/sprHeadphoneBattery/sprHeadphoneBattery.yy",},
     {"name":"sprHouseTiles","order":6,"path":"sprites/sprHouseTiles/sprHouseTiles.yy",},
     {"name":"sprPlayerHeadphonesOn","order":13,"path":"sprites/sprPlayerHeadphonesOn/sprPlayerHeadphonesOn.yy",},
     {"name":"sprPlayerLeft","order":4,"path":"sprites/sprPlayerLeft/sprPlayerLeft.yy",},

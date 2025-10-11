@@ -51,6 +51,7 @@
     {"id":{"name":"sprBed","path":"sprites/sprBed/sprBed.yy",},},
     {"id":{"name":"sprBookshelf","path":"sprites/sprBookshelf/sprBookshelf.yy",},},
     {"id":{"name":"sprCabinet","path":"sprites/sprCabinet/sprCabinet.yy",},},
+    {"id":{"name":"sprHeadphoneBattery","path":"sprites/sprHeadphoneBattery/sprHeadphoneBattery.yy",},},
     {"id":{"name":"sprHouseTiles","path":"sprites/sprHouseTiles/sprHouseTiles.yy",},},
     {"id":{"name":"sprPlayerDown","path":"sprites/sprPlayerDown/sprPlayerDown.yy",},},
     {"id":{"name":"sprPlayerHeadphonesOn","path":"sprites/sprPlayerHeadphonesOn/sprPlayerHeadphonesOn.yy",},},
