@@ -14,5 +14,15 @@ face = DOWN;
 
 headphonesAnimating = false;
 socialBattery = 100;
+maxSocialBattery = socialBattery;
+displayedBattery = socialBattery; // for smooth transition
+fillLerpSpeed = 0.1;
+
 headphoneCharge = 100;
+maxHeadphoneCharge = headphoneCharge;
+
+healthbarWidth = 100;
+healthbarHeight = 12;
+
 fainted = false;
+batteryImageIndex = 0;

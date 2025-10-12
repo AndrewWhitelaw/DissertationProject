@@ -13,6 +13,18 @@ if (!keyboard_check(ord("E"))) {
     }
 }
 
+//Social battery increased
+if (instance_exists(player)) {
+    player.socialBattery = clamp(player.socialBattery + 0.2, 0, player.maxSocialBattery);
+}
+
+
+//Makes it smooth
+if (instance_exists(player)) {
+    displayedBattery = lerp(displayedBattery, player.socialBattery, fillLerpSpeed);
+}
+
+
 //Player no longer holding E so reverse the animation to finish
 if (image_speed < 0 && floor(image_index) <= 0) {
     image_index = 0;
@@ -20,3 +32,12 @@ if (image_speed < 0 && floor(image_index) <= 0) {
     instance_destroy();
 }
 
+//========================================================================
+//battery animation
+//batteryImageIndex += batteryImageSpeed;
+
+// Loop animation
+//if (batteryImageIndex >= batteryFrameCount) {
+//    batteryImageIndex = 0;
+//}
+//========================================================================

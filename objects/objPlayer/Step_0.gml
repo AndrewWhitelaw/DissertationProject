@@ -77,3 +77,18 @@ if xSpeed == 0 && ySpeed == 0{
 
 //depth
 depth = -bbox_bottom;
+
+// --- Social Battery Logic ---
+if (instance_exists(objHeadphonesOn)) {
+    // Charging while headphones are on
+    socialBattery += 0.25;
+} else {
+    // Draining slowly otherwise
+    socialBattery -= 0.1;
+}
+
+// Clamp between 0 and max
+socialBattery = clamp(socialBattery, 0, maxSocialBattery);
+
+// Smooth visual transition
+displayedBattery += (socialBattery - displayedBattery) * fillLerpSpeed;
