@@ -22,12 +22,13 @@ image_speed = 1;
 //batteryFrameCount = sprite_get_number(sprSocialBattery);
 //============================================================================================
 
-var player = instance_nearest(x, y, objPlayer);
 
+//So that the battery percentage carries over
+var player = instance_nearest(x, y, objPlayer);
 if (instance_exists(player)) {
-    socialBattery = player.socialBattery;
-    maxSocialBattery = player.maxSocialBattery; 
-    displayedBattery = socialBattery;           
+    socialBattery      = player.socialBattery;
+    maxSocialBattery   = player.maxSocialBattery;
+    displayedBattery   = socialBattery;
 } else {
     socialBattery = 0;
     maxSocialBattery = 100;

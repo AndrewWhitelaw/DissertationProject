@@ -1,5 +1,2 @@
-depth = -bbox_bottom;
-
-charging = false;
-empty = false;
-charge = 100;
+image_speed = 0;
+image_index = 0;

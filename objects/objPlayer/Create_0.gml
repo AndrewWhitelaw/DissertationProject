@@ -20,9 +20,7 @@ fillLerpSpeed = 0.1;
 
 headphoneCharge = 100;
 maxHeadphoneCharge = headphoneCharge;
-
-healthbarWidth = 100;
-healthbarHeight = 12;
+headphoneImageIndex = 0;
 
 fainted = false;
 batteryImageIndex = 0;

@@ -25,7 +25,7 @@ if instance_exists(objPause) || instance_exists(objHeadphonesOn){
 
 //Set sprite
 mask_index = sprite[DOWN]; //Collision for player ALWAYS the down sprite
-if ySpeed == 0 // for Diagonals
+if ySpeed == 0 // for Diagonals, makes it so first direction input overrides e.g. down + left, I would face down
 {
     if xSpeed > 0{face = RIGHT}; 
     if xSpeed < 0{face = LEFT};    
@@ -50,7 +50,7 @@ if ySpeed < 0 && face == DOWN{
 
 sprite_index = sprite[face];
 
-
+//Once E is pressed create an instance of objHeadphonesOn at the player location which was taken at the start of the step function
 if (keyboard_check_pressed(ord("E")) && !instance_exists(objHeadphonesOn)) {
     var _inst = instance_create_depth(player_start_x, player_start_y, depth-1, objHeadphonesOn);
 }
@@ -78,17 +78,11 @@ if xSpeed == 0 && ySpeed == 0{
 //depth
 depth = -bbox_bottom;
 
-// --- Social Battery Logic ---
-if (instance_exists(objHeadphonesOn)) {
-    // Charging while headphones are on
-    socialBattery += 0.25;
-} else {
-    // Draining slowly otherwise
+if (!instance_exists(objHeadphonesOn)) {
     socialBattery -= 0.1;
 }
 
-// Clamp between 0 and max
-socialBattery = clamp(socialBattery, 0, maxSocialBattery);
 
-// Smooth visual transition
-displayedBattery += (socialBattery - displayedBattery) * fillLerpSpeed;
+// Clamp between 0 and max
+socialBattery = clamp(socialBattery, 0, maxSocialBattery); //Clamp - Restricts a number to stay in the range. So Social Battery can only be between 0-100
+displayedBattery += (socialBattery - displayedBattery) * fillLerpSpeed; //Makes the bar fill up smoothly instead of janky/clunky movements

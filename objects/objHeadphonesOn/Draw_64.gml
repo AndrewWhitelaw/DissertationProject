@@ -30,5 +30,9 @@ draw_sprite_stretched(
 //Border to finish
 draw_sprite(sprSocialBatteryBorder, 0, uiX, uiY);
   
+var battery = instance_find(objHeadphoneBattery, 0);
+if (instance_exists(battery)) {
+    draw_sprite(sprHeadphoneBattery, battery.image_index, 134, 0);
+}
 
 //draw_sprite(sprSocialBattery, floor(batteryImageIndex), 0, 0);
