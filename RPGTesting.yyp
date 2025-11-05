@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"RPGTesting",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"RPGTesting",
   "resources":[
@@ -55,6 +55,7 @@
     {"id":{"name":"sprHeadphoneBattery","path":"sprites/sprHeadphoneBattery/sprHeadphoneBattery.yy",},},
     {"id":{"name":"sprHouseTiles","path":"sprites/sprHouseTiles/sprHouseTiles.yy",},},
     {"id":{"name":"sprMeter","path":"sprites/sprMeter/sprMeter.yy",},},
+    {"id":{"name":"sprOutsiteTiles","path":"sprites/sprOutsiteTiles/sprOutsiteTiles.yy",},},
     {"id":{"name":"sprPlayerDown","path":"sprites/sprPlayerDown/sprPlayerDown.yy",},},
     {"id":{"name":"sprPlayerHeadphonesOn","path":"sprites/sprPlayerHeadphonesOn/sprPlayerHeadphonesOn.yy",},},
     {"id":{"name":"sprPlayerLeft","path":"sprites/sprPlayerLeft/sprPlayerLeft.yy",},},
@@ -66,6 +67,7 @@
     {"id":{"name":"sprWarp","path":"sprites/sprWarp/sprWarp.yy",},},
     {"id":{"name":"sprWarpBlock","path":"sprites/sprWarpBlock/sprWarpBlock.yy",},},
     {"id":{"name":"tsActualHouse","path":"tilesets/tsActualHouse/tsActualHouse.yy",},},
+    {"id":{"name":"tsOutsiteTiles","path":"tilesets/tsOutsiteTiles/tsOutsiteTiles.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

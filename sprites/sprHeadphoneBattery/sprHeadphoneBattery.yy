@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"sprHeadphoneBattery",
   "bboxMode":0,
   "bbox_bottom":10,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"802f8e49-8fc4-4328-8483-0dd381944873","name":"802f8e49-8fc4-4328-8483-0dd381944873","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5514d324-c0df-45ee-9b31-f9b1e8c91c37","name":"5514d324-c0df-45ee-9b31-f9b1e8c91c37","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e4d3b9c4-3afc-4189-bdc9-89589952c3b9","name":"e4d3b9c4-3afc-4189-bdc9-89589952c3b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e18e21a6-62a0-4a7e-a990-453595491c6a","name":"e18e21a6-62a0-4a7e-a990-453595491c6a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e1d63df1-21db-4d9b-a255-f2a0feb425bb","name":"e1d63df1-21db-4d9b-a255-f2a0feb425bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"802f8e49-8fc4-4328-8483-0dd381944873","name":"802f8e49-8fc4-4328-8483-0dd381944873","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5514d324-c0df-45ee-9b31-f9b1e8c91c37","name":"5514d324-c0df-45ee-9b31-f9b1e8c91c37","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e4d3b9c4-3afc-4189-bdc9-89589952c3b9","name":"e4d3b9c4-3afc-4189-bdc9-89589952c3b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e18e21a6-62a0-4a7e-a990-453595491c6a","name":"e18e21a6-62a0-4a7e-a990-453595491c6a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e1d63df1-21db-4d9b-a255-f2a0feb425bb","name":"e1d63df1-21db-4d9b-a255-f2a0feb425bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -74,21 +74,11 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"802f8e49-8fc4-4328-8483-0dd381944873","path":"sprites/sprHeadphoneBattery/sprHeadphoneBattery.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"78aecb95-f9ac-40a0-a1e8-60602c1b7396","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5514d324-c0df-45ee-9b31-f9b1e8c91c37","path":"sprites/sprHeadphoneBattery/sprHeadphoneBattery.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d7589992-6834-409a-a1f5-0d39b678c480","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e4d3b9c4-3afc-4189-bdc9-89589952c3b9","path":"sprites/sprHeadphoneBattery/sprHeadphoneBattery.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4c418b32-cd11-43a3-8ffd-24f4c64cf301","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e18e21a6-62a0-4a7e-a990-453595491c6a","path":"sprites/sprHeadphoneBattery/sprHeadphoneBattery.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c5b46039-a930-48f9-9442-758a62081fce","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e1d63df1-21db-4d9b-a255-f2a0feb425bb","path":"sprites/sprHeadphoneBattery/sprHeadphoneBattery.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f3d3b607-6409-45a7-877c-e056877d43ac","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"802f8e49-8fc4-4328-8483-0dd381944873","path":"sprites/sprHeadphoneBattery/sprHeadphoneBattery.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"78aecb95-f9ac-40a0-a1e8-60602c1b7396","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5514d324-c0df-45ee-9b31-f9b1e8c91c37","path":"sprites/sprHeadphoneBattery/sprHeadphoneBattery.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d7589992-6834-409a-a1f5-0d39b678c480","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e4d3b9c4-3afc-4189-bdc9-89589952c3b9","path":"sprites/sprHeadphoneBattery/sprHeadphoneBattery.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4c418b32-cd11-43a3-8ffd-24f4c64cf301","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e18e21a6-62a0-4a7e-a990-453595491c6a","path":"sprites/sprHeadphoneBattery/sprHeadphoneBattery.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c5b46039-a930-48f9-9442-758a62081fce","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e1d63df1-21db-4d9b-a255-f2a0feb425bb","path":"sprites/sprHeadphoneBattery/sprHeadphoneBattery.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f3d3b607-6409-45a7-877c-e056877d43ac","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
