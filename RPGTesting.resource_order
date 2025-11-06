@@ -28,6 +28,7 @@
     {"name":"objWarp","order":6,"path":"objects/objWarp/objWarp.yy",},
     {"name":"objWarpBlock","order":5,"path":"objects/objWarpBlock/objWarpBlock.yy",},
     {"name":"rmBedRoom","order":1,"path":"rooms/rmBedRoom/rmBedRoom.yy",},
+    {"name":"rmOutside","order":2,"path":"rooms/rmOutside/rmOutside.yy",},
     {"name":"sprBed","order":9,"path":"sprites/sprBed/sprBed.yy",},
     {"name":"sprBookshelf","order":7,"path":"sprites/sprBookshelf/sprBookshelf.yy",},
     {"name":"sprCabinet","order":8,"path":"sprites/sprCabinet/sprCabinet.yy",},

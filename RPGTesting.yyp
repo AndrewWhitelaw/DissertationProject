@@ -48,6 +48,7 @@
     {"id":{"name":"objWarpBlock","path":"objects/objWarpBlock/objWarpBlock.yy",},},
     {"id":{"name":"rmBedRoom","path":"rooms/rmBedRoom/rmBedRoom.yy",},},
     {"id":{"name":"rmLivingRoom","path":"rooms/rmLivingRoom/rmLivingRoom.yy",},},
+    {"id":{"name":"rmOutside","path":"rooms/rmOutside/rmOutside.yy",},},
     {"id":{"name":"scrMacros","path":"scripts/scrMacros/scrMacros.yy",},},
     {"id":{"name":"sprBed","path":"sprites/sprBed/sprBed.yy",},},
     {"id":{"name":"sprBookshelf","path":"sprites/sprBookshelf/sprBookshelf.yy",},},
@@ -72,6 +73,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rmOutside","path":"rooms/rmOutside/rmOutside.yy",},},
     {"roomId":{"name":"rmBedRoom","path":"rooms/rmBedRoom/rmBedRoom.yy",},},
     {"roomId":{"name":"rmLivingRoom","path":"rooms/rmLivingRoom/rmLivingRoom.yy",},},
   ],
