@@ -24,3 +24,5 @@ headphoneImageIndex = 0;
 
 fainted = false;
 batteryImageIndex = 0;
+
+display_set_gui_size(150, 100);

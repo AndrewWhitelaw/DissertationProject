@@ -1,3 +1,14 @@
+if (keyboard_check_pressed(vk_space))
+{
+    createDialogue([
+    {
+        name: "Test dialog!",
+        msg: "It works!"
+    }
+    ]);
+}
+
+
 // Hide player while headphones animation is active
 if (instance_exists(objHeadphonesOn)) {
     visible = false;

@@ -1,0 +1,34 @@
+// Save current GUI size
+var old_gui_w = display_get_gui_width();
+var old_gui_h = display_get_gui_height();
+
+// Set GUI size for dialogue
+display_set_gui_size(room_width, room_height);
+
+// Update our stored values
+guiWidth = display_get_gui_width();
+guiHeight = display_get_gui_height();
+
+// Draw dialogue
+var dx = 0; 
+var dy = guiHeight * 0.7; 
+var boxw = guiWidth; 
+var boxh = guiHeight - dy; 
+
+draw_sprite_stretched(sprBox, 0, dx, dy, boxw, boxh); 
+
+dx += 10; 
+dy += 10; 
+
+draw_set_font(Font1); 
+
+var name = messages[currentMessage].name; 
+
+draw_text(dx, dy, name); 
+
+dy += 20; 
+
+draw_text_ext(dx, dy, drawMessage, -1, boxw - dx * 2);
+
+// Restore original GUI size 
+display_set_gui_size(old_gui_w, old_gui_h);

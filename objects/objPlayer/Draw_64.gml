@@ -1,6 +1,3 @@
-//Gui size
-display_set_gui_size(150, 100);
-
 //Top left
 var uiX = 0; 
 var uiY = 0; 
