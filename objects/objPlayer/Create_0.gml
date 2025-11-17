@@ -12,6 +12,8 @@ sprite[HEADPHONES] = sprPlayerHeadphonesOn;
 //Initial state of animation
 face = DOWN;
 
+talkingToNPC = false;
+
 headphonesAnimating = false;
 socialBattery = 100;
 maxSocialBattery = socialBattery;

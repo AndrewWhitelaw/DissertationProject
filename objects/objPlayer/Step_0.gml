@@ -1,14 +1,3 @@
-if (keyboard_check_pressed(vk_space))
-{
-    createDialogue([
-    {
-        name: "Test dialog!",
-        msg: "It works!"
-    }
-    ]);
-}
-
-
 // Hide player while headphones animation is active
 if (instance_exists(objHeadphonesOn)) {
     visible = false;
@@ -88,11 +77,6 @@ if xSpeed == 0 && ySpeed == 0{
 
 //depth
 depth = -bbox_bottom;
-
-if (!instance_exists(objHeadphonesOn)) {
-    socialBattery -= 0.1;
-}
-
 
 // Clamp between 0 and max
 socialBattery = clamp(socialBattery, 0, maxSocialBattery); //Clamp - Restricts a number to stay in the range. So Social Battery can only be between 0-100

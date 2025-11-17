@@ -10,6 +10,9 @@ if(currentChar < string_length(str))
 else if (keyboard_check_pressed(inputKey)){
     currentMessage++;
     if (currentMessage >= array_length(messages)){
+        if(instance_exists(objPlayer)) {
+            objPlayer.talkingToNPC = false;
+        }
         instance_destroy();
     }
     else{

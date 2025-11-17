@@ -23,9 +23,9 @@ dy += 10;
 draw_set_font(Font1); 
 
 var name = messages[currentMessage].name; 
-
+draw_set_colour(global.charColours[$ name]);
 draw_text(dx, dy, name); 
-
+draw_set_colour(c_white);
 dy += 20; 
 
 draw_text_ext(dx, dy, drawMessage, -1, boxw - dx * 2);
