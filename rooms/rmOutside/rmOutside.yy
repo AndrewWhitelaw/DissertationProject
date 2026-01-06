@@ -1,11 +1,12 @@
 {
   "$GMRoom":"v1",
   "%Name":"rmOutside",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/rmOutside/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
+    {"name":"inst_7BBDA421","path":"rooms/rmOutside/rmOutside.yy",},
     {"name":"inst_65C7F51C","path":"rooms/rmOutside/rmOutside.yy",},
     {"name":"inst_4F74EF82","path":"rooms/rmOutside/rmOutside.yy",},
     {"name":"inst_35A7941D","path":"rooms/rmOutside/rmOutside.yy",},
@@ -181,9 +182,8 @@
         {"$GMRInstance":"v4","%Name":"inst_35A7941D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_35A7941D","objectId":{"name":"objHeadphoneBattery","path":"objects/objHeadphoneBattery/objHeadphoneBattery.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":816.0,"y":16.0,},
         {"$GMRInstance":"v4","%Name":"inst_1C9B7C18","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C9B7C18","objectId":{"name":"objWarpBlock","path":"objects/objWarpBlock/objWarpBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":656.0,"y":144.0,},
         {"$GMRInstance":"v4","%Name":"inst_6B922292","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B922292","objectId":{"name":"objWarpBlock","path":"objects/objWarpBlock/objWarpBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":64.0,},
-        {"$GMRInstance":"v4","%Name":"inst_1D373142","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":4,"imageSpeed":0.5,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1D373142","objectId":{"name":"objNPCAlexPhone","path":"objects/objNPCAlexPhone/objNPCAlexPhone.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objNPCParent","path":"objects/objNPCParent/objNPCParent.yy",},"propertyId":{"name":"dialog","path":"objects/objNPCParent/objNPCParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"global.welcomeDialog",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":368.0,"y":96.0,},
+        {"$GMRInstance":"v4","%Name":"inst_1D373142","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":4,"imageSpeed":0.5,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1D373142","objectId":{"name":"objNPCAlexPhone","path":"objects/objNPCAlexPhone/objNPCAlexPhone.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":368.0,"y":96.0,},
+        {"$GMRInstance":"v4","%Name":"inst_7BBDA421","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7BBDA421","objectId":{"name":"objInit","path":"objects/objInit/objInit.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":848.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Environment","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Environment","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":54,"TileCompressedData":[
           -75,-2147483648,-7,235,-47,-2147483648,7,235,409,410,411,412,413,235,-24,-2147483648,1,1,-22,-2147483648,

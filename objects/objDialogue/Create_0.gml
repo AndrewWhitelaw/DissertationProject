@@ -8,3 +8,8 @@ inputKey = vk_space; //Speed up text/move to next message
 
 guiWidth = display_get_gui_width(); 
 guiHeight = display_get_gui_height();
+
+hasChoices = false;
+choices = [];
+selectedChoice = 0;
+showingChoices = false;

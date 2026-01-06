@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"RPGTesting",
   "resources":[
@@ -42,6 +42,7 @@
     {"id":{"name":"objDialogue","path":"objects/objDialogue/objDialogue.yy",},},
     {"id":{"name":"objHeadphoneBattery","path":"objects/objHeadphoneBattery/objHeadphoneBattery.yy",},},
     {"id":{"name":"objHeadphonesOn","path":"objects/objHeadphonesOn/objHeadphonesOn.yy",},},
+    {"id":{"name":"objInit","path":"objects/objInit/objInit.yy",},},
     {"id":{"name":"objNPCAdamSit","path":"objects/objNPCAdamSit/objNPCAdamSit.yy",},},
     {"id":{"name":"objNPCAlexPhone","path":"objects/objNPCAlexPhone/objNPCAlexPhone.yy",},},
     {"id":{"name":"objNPCBob","path":"objects/objNPCBob/objNPCBob.yy",},},
@@ -58,6 +59,7 @@
     {"id":{"name":"rmOutside","path":"rooms/rmOutside/rmOutside.yy",},},
     {"id":{"name":"scrDialogueCode","path":"scripts/scrDialogueCode/scrDialogueCode.yy",},},
     {"id":{"name":"scrMacros","path":"scripts/scrMacros/scrMacros.yy",},},
+    {"id":{"name":"scrQuests","path":"scripts/scrQuests/scrQuests.yy",},},
     {"id":{"name":"sprBed","path":"sprites/sprBed/sprBed.yy",},},
     {"id":{"name":"sprBookshelf","path":"sprites/sprBookshelf/sprBookshelf.yy",},},
     {"id":{"name":"sprBox","path":"sprites/sprBox/sprBox.yy",},},

@@ -28,3 +28,5 @@ fainted = false;
 batteryImageIndex = 0;
 
 display_set_gui_size(150, 100);
+
+global.playerHasCoffee = false;

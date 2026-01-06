@@ -20,15 +20,32 @@ draw_sprite_stretched(sprBox, 0, dx, dy, boxw, boxh);
 dx += 10; 
 dy += 10; 
 
-draw_set_font(Font1); 
-
-var name = messages[currentMessage].name; 
-draw_set_colour(global.charColours[$ name]);
-draw_text(dx, dy, name); 
-draw_set_colour(c_white);
-dy += 20; 
-
-draw_text_ext(dx, dy, drawMessage, -1, boxw - dx * 2);
-
+if(showingChoices) {
+    // DRAW CHOICES
+    draw_set_font(Font1);
+    draw_set_halign(fa_left);
+    draw_set_valign(fa_top);
+    
+    for(var i = 0; i < array_length(choices); i++) {
+        // Highlight selected choice
+        if(i == selectedChoice) {
+            draw_set_color(c_yellow);
+            draw_text(dx - 8, dy, ">");
+        }
+        draw_set_color(c_white);
+        draw_text(dx, dy, choices[i].text);
+        dy += 30;
+    }
+} else {
+	if(currentMessage >= 0 && currentMessage < array_length(messages)) {
+        draw_set_font(Font1);
+        var name = messages[currentMessage].name; 
+        draw_set_colour(global.charColours[$ name]);
+        draw_text(dx, dy, name); 
+        draw_set_colour(c_white);
+        dy += 20; 
+        draw_text_ext(dx, dy, drawMessage, -1, boxw - dx * 2);
+    }
+}
 // Restore original GUI size 
 display_set_gui_size(old_gui_w, old_gui_h);

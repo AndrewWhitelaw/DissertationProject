@@ -18,17 +18,31 @@ global.charColours = {
     "Adam": c_aqua,
     "Frank": c_orange
 }
-
-global.welcomeDialog = [
+//First Quest
+global.alexCafeQuest = [
 {
     name: "Alex",
-    msg: "This Cafe here is great!"
-},
-
-{
-    name: "Frank",
-    msg: "Good to know, guess I will check it out."
+    msg: "Hey! I'm really craving a coffee, can you get one for me?"
 },    
+]
+
+//Alex's dialogue when you bring the coffee
+global.alexReceiveCoffee = [
+{
+	name: "Alex",
+	msg: "Perfect! Thank you for getting that for me!"
+},
+{
+	name: "Alex",
+	msg: "You're a lifesaver!"
+}
+]
+
+global.alexAfterQuest = [
+{
+	name: "Alex",
+	msg: "This coffee hits the spot! Thanks again."
+}
 ]
 
 global.adamCafeTalk = [
@@ -47,4 +61,29 @@ global.bobWorkTalk = [
     name: "Bob",
     msg: "Welcome to our cafe, what will you be having today?"
 }    
+]
+
+global.bobCoffeeOrder = [
+{
+    name: "Bob",
+    msg: "One coffee coming right up!"
+},
+{
+	name: "Bob",
+	msg: "Here you go - fresh and hot!"
+}
+]
+
+global.bobTeaOrder = [
+{
+    name: "Bob",
+    msg: "Great choice! Here's your tea."
+},
+]
+
+global.bobNothingOrder = [
+{
+    name: "Bob",
+    msg: "No problem, let me know if you need anything!"
+},
 ]
