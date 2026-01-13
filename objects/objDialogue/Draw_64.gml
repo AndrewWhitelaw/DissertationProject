@@ -1,15 +1,15 @@
-// Save current GUI size
+//Save current GUI size
 var old_gui_w = display_get_gui_width();
 var old_gui_h = display_get_gui_height();
 
-// Set GUI size for dialogue
+//Set GUI size for dialogue
 display_set_gui_size(room_width, room_height);
 
-// Update our stored values
+//Update our stored values
 guiWidth = display_get_gui_width();
 guiHeight = display_get_gui_height();
 
-// Draw dialogue
+//Draw dialogue
 var dx = 0; 
 var dy = guiHeight * 0.7; 
 var boxw = guiWidth; 
@@ -21,19 +21,19 @@ dx += 10;
 dy += 10; 
 
 if(showingChoices) {
-    // DRAW CHOICES
+    //Draw choices
     draw_set_font(Font1);
     draw_set_halign(fa_left);
     draw_set_valign(fa_top);
     
     for(var i = 0; i < array_length(choices); i++) {
-        // Highlight selected choice
+        //Highlight selected choice
         if(i == selectedChoice) {
             draw_set_color(c_yellow);
-            draw_text(dx - 8, dy, ">");
+            draw_text(dx - 8, dy, "->");
         }
         draw_set_color(c_white);
-        draw_text(dx, dy, choices[i].text);
+        draw_text(dx + 30, dy, choices[i].text);
         dy += 30;
     }
 } else {
@@ -47,5 +47,5 @@ if(showingChoices) {
         draw_text_ext(dx, dy, drawMessage, -1, boxw - dx * 2);
     }
 }
-// Restore original GUI size 
+//Restore original GUI size 
 display_set_gui_size(old_gui_w, old_gui_h);

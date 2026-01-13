@@ -9,11 +9,27 @@ if (instance_exists(objDialogue)) {
     exit;
 }
     
+if(isQuestActive("alexCoffee") || isQuestActive("adamFood")) {
+    hasQuest = true;
+    questIconFrame += questIconSpeed;
+    if(questIconFrame >= sprite_get_number(sprQuest) && questIconFrame >= sprite_get_number(sprQuest2)) {
+        questIconFrame = 0;
+    }
+}
+
 if (instance_exists(objPlayer) && distance_to_object(objPlayer) < 15)
 {
     canTalk = true;
     if(keyboard_check_pressed(inputKey) && talkCooldown <= 0){
+        //Checking Adam first as it is just a statement
+        if (isQuestActive("adamFood")) {
+            createDialogue(global.bobColdFood, [], batteryCost);
+            global.playerHasColdFood = true;
+            show_debug_message("Player received new food for Adam");
+        }
+        
         // Create dialogue with choices
+        else if (isQuestActive("alexCoffee")){
         createDialogue(
             global.bobWorkTalk, 
             [
@@ -22,10 +38,10 @@ if (instance_exists(objPlayer) && distance_to_object(objPlayer) < 15)
                     dialogue: global.bobCoffeeOrder, 
                     action: function() {
                         // Give player coffee if Alex's quest is active
-                        if (isQuestActive("alexCoffee")) {
+                        //if (isQuestActive("alexCoffee")) {
                             global.playerHasCoffee = true;
                             show_debug_message("Player received coffee for Alex");
-                        }
+                        //}
                     }
                 },
                 { 
@@ -43,8 +59,9 @@ if (instance_exists(objPlayer) && distance_to_object(objPlayer) < 15)
                     }
                 }
             ],
-            30
-        );
+            batteryCost
+        ); 
+        } 
     }
 }
 else{

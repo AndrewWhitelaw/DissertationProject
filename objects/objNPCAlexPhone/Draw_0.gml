@@ -1,5 +1,2 @@
 // Inherit the parent event
 event_inherited();
-
-//hasQuest = true;
-batteryCost = 30;

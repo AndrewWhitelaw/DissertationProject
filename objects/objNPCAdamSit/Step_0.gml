@@ -1,3 +1,6 @@
+// Inherit the parent event
+//event_inherited();
+
 // Decrease cooldown
 if (talkCooldown > 0) {
     talkCooldown--;
@@ -5,49 +8,51 @@ if (talkCooldown > 0) {
 
 // Don't process if dialogue exists
 if (instance_exists(objDialogue)) {
+    // Set cooldown while dialogue is open
     talkCooldown = 15;
     exit;
 }
-//Cycle through sprQuest animation
+    
 if(hasQuest) {
     questIconFrame += questIconSpeed;
-    if(questIconFrame >= sprite_get_number(sprQuest)) {
+    if(questIconFrame >= sprite_get_number(sprQuest2)) {
         questIconFrame = 0;
     }
 }
 
-if (instance_exists(objPlayer) && distance_to_object(objPlayer) < 8)
+if (instance_exists(objPlayer) && distance_to_object(objPlayer) < 12)
 {
     canTalk = true;
     if(keyboard_check_pressed(inputKey) && talkCooldown <= 0){
         // Check quest status and show appropriate dialogue
-        if (isQuestCompleted("alexCoffee")) {
+        if (isQuestCompleted("adamFood")) {
             // Quest complete - casual chat
-            createDialogue(global.alexAfterQuest, [], batteryCost);
+            createDialogue(global.adamAfterFood, [], batteryCost);
         }
-        else if (isQuestActive("alexCoffee")) {
+        else if (isQuestActive("adamFood")) {
             // Quest active - check if player has coffee
-            if (global.playerHasCoffee) {
+            if (global.playerHasColdFood) {
                 // Player has coffee - complete quest
-                global.playerHasCoffee = false; // Take the coffee
-                completeQuest("alexCoffee");
+                global.playerHasColdFood = false; // Take the coffee
+                completeQuest("adamFood");
                 hasQuest = false;
-                createDialogue(global.alexReceiveCoffee, [], batteryCost);
+                createDialogue(global.adamReceiveFood, [], batteryCost);
             } else {
                 // Still waiting for coffee
                 hasQuest = true;
-                createDialogue(global.alexWaitingForCoffee, [], batteryCost);
+                createDialogue(global.adamWaitingForFood, [], batteryCost);
             }
         }
         else {
             // Quest not started - give quest
-            startQuest("alexCoffee");
+            startQuest("adamFood");
             hasQuest = true;
-            createDialogue(global.alexCafeQuest, [], batteryCost);
+            createDialogue(global.adamCafeTalk, [], batteryCost);
         }
     }
 }
 else{
     canTalk = false;
-    talkCooldown = 0;
+    talkCooldown = 0; // Reset cooldown when you walk away
 }
+

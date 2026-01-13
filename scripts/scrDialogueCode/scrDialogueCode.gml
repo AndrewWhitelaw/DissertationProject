@@ -52,8 +52,12 @@ global.adamCafeTalk = [
 },
 {
     name: "Adam",
-    msg: "I love coming here for the coffee!" 
-}
+    msg: "I have a small issue, my food here has came cold" 
+},
+{
+    name: "Adam",  
+    msg: "Can you take this up to bob for me please?."
+},
 ]
 
 global.bobWorkTalk = [

@@ -10,18 +10,10 @@ face = DOWN;
 
 mask_index = sprite[DOWN]; //Collision for player ALWAYS the down sprite
 
-// Sprite
+//Sprite
 sprite_index = sprPlayerHeadphonesOn;
 image_index = 0;
 image_speed = 1;
-
-//============================================================================================
-//IMPLEMENT LATER FOR ANIMATION WHILE HEALING THE BATTERY
-//batteryImageIndex = 0;
-//batteryImageSpeed = 0.1; // How fast it animates
-//batteryFrameCount = sprite_get_number(sprSocialBattery);
-//============================================================================================
-
 
 //So that the battery percentage carries over
 var player = instance_nearest(x, y, objPlayer);

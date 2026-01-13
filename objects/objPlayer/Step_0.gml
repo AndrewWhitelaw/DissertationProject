@@ -18,7 +18,7 @@ xSpeed = (rightKey - leftKey) * moveSpeed; //Press right and not left = 1 go rig
 ySpeed = (downKey - upKey) * moveSpeed; //Same as above
 
 //pauser
-if instance_exists(objPause) || instance_exists(objHeadphonesOn){
+if instance_exists(objPause) || instance_exists(objHeadphonesOn) || instance_exists(objDialogue){
     xSpeed = 0;
     ySpeed = 0;
 }

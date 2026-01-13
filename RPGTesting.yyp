@@ -78,6 +78,8 @@
     {"id":{"name":"sprPlayerLeft","path":"sprites/sprPlayerLeft/sprPlayerLeft.yy",},},
     {"id":{"name":"sprPlayerRight","path":"sprites/sprPlayerRight/sprPlayerRight.yy",},},
     {"id":{"name":"sprPlayerUp","path":"sprites/sprPlayerUp/sprPlayerUp.yy",},},
+    {"id":{"name":"sprQuest","path":"sprites/sprQuest/sprQuest.yy",},},
+    {"id":{"name":"sprQuest2","path":"sprites/sprQuest2/sprQuest2.yy",},},
     {"id":{"name":"sprRoomWalls","path":"sprites/sprRoomWalls/sprRoomWalls.yy",},},
     {"id":{"name":"sprSocialBattery","path":"sprites/sprSocialBattery/sprSocialBattery.yy",},},
     {"id":{"name":"sprSocialBatteryBorder","path":"sprites/sprSocialBatteryBorder/sprSocialBatteryBorder.yy",},},

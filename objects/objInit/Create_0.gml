@@ -1,24 +1,27 @@
-// Check if already initialized
+//Check if already initialized
 if (variable_global_exists("systemInitialized")) {
     instance_destroy();
     exit;
 }
 
-// Mark as initialized
+//Mark as initialized
 global.systemInitialized = true;
 
 // Initialize quest system
 global.quests = {
-    alexCoffee: false
+    alexCoffee: false,
+    adamFood: false
 }
 
 global.questComplete = {
-    alexCoffee: false
+    alexCoffee: false,
+    adamFood: false
 }
 
 global.playerHasCoffee = false;
+global.playerHasColdFood = false;
 
-// Initialize all global dialogues
+//Initialize all global dialogues colours
    global.charColours = {
        "Alex": c_red,
        "Bob": c_purple,
@@ -26,18 +29,7 @@ global.playerHasCoffee = false;
        "Frank": c_orange
    }
    
-   // Initialize quest system
-   global.quests = {
-       alexCoffee: false
-   }
-   
-   global.questComplete = {
-       alexCoffee: false
-   }
-   
-   global.playerHasCoffee = false;
-   
-   // All your dialogue definitions
+   //All dialogue definitions
    global.welcomeDialog = [
        {name: "Alex", msg: "This Cafe here is great!"},
        {name: "Frank", msg: "Good to know, guess I will check it out."}
@@ -45,8 +37,21 @@ global.playerHasCoffee = false;
    
    global.adamCafeTalk = [
        {name: "Adam", msg: "Not seen you around here before."},
-       {name: "Adam", msg: "I love coming here for the coffee!"}
+       {name: "Adam", msg: "I have a small issue, my food here has came cold"},
+       {name: "Adam", msg: "Can you take this up to bob for me please?."},
    ]
+
+   global.adamWaitingForFood = [
+       {name: "Adam", msg: "Have you told Bob about my food yet?"}, 
+   ]
+
+   global.adamReceiveFood = [
+       {name: "Adam", msg: "Wonderful! This is nice and hot, thank you!"},
+   ]   
+
+   global.adamAfterFood = [
+       {name: "Adam", msg: "This is delicious"},
+   ]  
    
    global.bobWorkTalk = [
        {name: "Bob", msg: "Welcome to our cafe, what will you be having today?"}
@@ -82,6 +87,10 @@ global.playerHasCoffee = false;
    global.bobNothingOrder = [
        {name: "Bob", msg: "No problem, let me know if you need anything!"}
    ]
+
+   global.bobColdFood = [
+       {name: "Bob", msg: "I'm very sorry about that, here is a new plate of food"}
+   ]
    
-   // Destroy after initialization
+   //Destroy after initialization
    instance_destroy();

@@ -10,7 +10,14 @@ if (instance_exists(objDialogue)) {
     exit;
 }
     
-if (instance_exists(objPlayer) && distance_to_object(objPlayer) < 8)
+if(hasQuest) {
+    questIconFrame += questIconSpeed;
+    if(questIconFrame >= sprite_get_number(questSprite)) {
+        questIconFrame = 0;
+    }
+}
+
+if (instance_exists(objPlayer) && distance_to_object(objPlayer) < 12)
 {
     canTalk = true;
     if(keyboard_check_pressed(inputKey) && talkCooldown <= 0){

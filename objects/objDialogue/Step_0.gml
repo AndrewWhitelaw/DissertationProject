@@ -1,8 +1,8 @@
 if(currentMessage < 0) exit;
 
-// Check if we're showing choices FIRST (before accessing messages)
+//Check if we're showing choices FIRST (before accessing messages)
 if(showingChoices) {
-    // Navigate choices with up/down
+    //Navigate choices with up/down
     if(keyboard_check_pressed(vk_down)) {
         selectedChoice++;
         if(selectedChoice >= array_length(choices)) selectedChoice = 0;
@@ -12,18 +12,18 @@ if(showingChoices) {
         if(selectedChoice < 0) selectedChoice = array_length(choices) - 1;
     }
     
-    // Select choice with space
+    //Select choice with space
     if(keyboard_check_pressed(inputKey)) {
 		
 		if(array_length(choices) == 0 || selectedChoice >= array_length(choices)) {
-        exit; // No valid choices, exit
+        exit; //No valid choices, exit
     }
     
     var selectedOption = choices[selectedChoice];
     
-    // Check if the choice has all required properties
+    //Check if the choice has all required properties
     if(!variable_struct_exists(selectedOption, "dialogue")) {
-        exit; // Invalid choice structure
+        exit; //Invalid choice structure
     }
 		
     var chosenDialogue = selectedOption.dialogue;
@@ -31,17 +31,17 @@ if(showingChoices) {
     var chosenAction = variable_struct_exists(selectedOption, "action") ? selectedOption.action : undefined;
     
         
-        // Deduct additional battery cost if any
-        if(chosenCost > 0 && instance_exists(objPlayer)) {
-            objPlayer.socialBattery -= chosenCost;
-        }
+        //Deduct additional battery cost if any
+        //if(chosenCost > 0 && instance_exists(objPlayer)) {
+        //    objPlayer.socialBattery -= chosenCost;
+        //}
         
-        // Execute the action if it exists
+        //Execute the action if it exists
         if (chosenAction != undefined) {
             chosenAction();
         }
         
-        // Create new dialogue based on choice
+        //Create new dialogue based on choice
         if(array_length(chosenDialogue) > 0) {
             messages = chosenDialogue;
             currentMessage = 0;
@@ -57,10 +57,10 @@ if(showingChoices) {
             instance_destroy();
         }
     }
-    exit; // Exit here - don't run normal dialogue code
+    exit; //Exit here - don't run normal dialogue code
 }
 
-// Normal dialogue code (only runs if NOT showing choices)
+//Normal dialogue code (only runs if NOT showing choices)
 var str = messages[currentMessage].msg;
 if(currentChar < string_length(str))
 {
@@ -70,7 +70,7 @@ if(currentChar < string_length(str))
 else if (keyboard_check_pressed(inputKey)){
     currentMessage++;
     if (currentMessage >= array_length(messages)){
-        // Check if we should show choices
+        //Check if we should show choices
         if(hasChoices && array_length(choices) > 0) {
             showingChoices = true;
             selectedChoice = 0;

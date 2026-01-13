@@ -12,8 +12,6 @@ sprite[HEADPHONES] = sprPlayerHeadphonesOn;
 //Initial state of animation
 face = DOWN;
 
-talkingToNPC = false;
-
 headphonesAnimating = false;
 socialBattery = 100;
 maxSocialBattery = socialBattery;
@@ -29,4 +27,6 @@ batteryImageIndex = 0;
 
 display_set_gui_size(150, 100);
 
+//Quest Setting
 global.playerHasCoffee = false;
+global.playerHasColdFood = false;
