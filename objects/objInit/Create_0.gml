@@ -10,23 +10,26 @@ global.systemInitialized = true;
 // Initialize quest system
 global.quests = {
     alexCoffee: false,
-    adamFood: false
+    adamFood: false,
+    ameliaWifi: false
 }
 
 global.questComplete = {
     alexCoffee: false,
-    adamFood: false
+    adamFood: false,
+    ameliaWifi: false
 }
 
 global.playerHasCoffee = false;
 global.playerHasColdFood = false;
+global.playerHasWifi = false;
 
 //Initialize all global dialogues colours
    global.charColours = {
        "Alex": c_red,
        "Bob": c_purple,
        "Adam": c_aqua,
-       "Frank": c_orange
+       "Amelia": c_orange
    }
    
    //All dialogue definitions
@@ -53,10 +56,6 @@ global.playerHasColdFood = false;
        {name: "Adam", msg: "This is delicious"},
    ]  
    
-   global.bobWorkTalk = [
-       {name: "Bob", msg: "Welcome to our cafe, what will you be having today?"}
-   ]
-   
    global.alexCafeQuest = [
        {name: "Alex", msg: "Hey! I'm really craving a coffee but I'm too tired to get up."},
        {name: "Alex", msg: "Could you grab me one from Bob at the counter?"}
@@ -73,6 +72,10 @@ global.playerHasColdFood = false;
    
    global.alexAfterQuest = [
        {name: "Alex", msg: "This coffee hits the spot! Thanks again."}
+   ]
+
+   global.bobWorkTalk = [
+       {name: "Bob", msg: "Welcome to our cafe, what will you be having today?"}
    ]
    
    global.bobCoffeeOrder = [
@@ -91,6 +94,31 @@ global.playerHasColdFood = false;
    global.bobColdFood = [
        {name: "Bob", msg: "I'm very sorry about that, here is a new plate of food"}
    ]
+
+   global.bobWifiPassword = [
+       {name: "Bob", msg:"The Wifi password? No problem, its cafe123" }    
+   ]
+
+   global.ameliaAskForWifi = [
+       {name: "Amelia", msg:"Hi, sorry to bother you, do you know the wifi password?" },
+       {name: "Amelia", msg:"You don't? Could you ask Bob for me please? I am a bit nervous"} 
+   ]
+
+   global.ameliaWaitingForWifi = [
+       {name: "Amelia", msg:"Have you got the password yet? Its ok if you haven't you can take your time"}
+   ]
+
+   global.ameliaReceiveWifi = [
+       {name: "Amelia", msg:"Thank you so much! I struggle to ask staff members questions sometimes"}   
+   ]
    
+   global.ameliaAfterWifi = [
+       {name: "Amelia", msg:"Thank you again!"}
+   ]
+
+   global.ameliaWrongPassword = [
+       {name: "Amelia", msg:"Oh, it says the password is incorrect, did you get the right one?"}    
+   ]
+
    //Destroy after initialization
    instance_destroy();

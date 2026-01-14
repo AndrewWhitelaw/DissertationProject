@@ -27,7 +27,7 @@ if (instance_exists(objPlayer) && distance_to_object(objPlayer) < 12)
         // Check quest status and show appropriate dialogue
         if (isQuestCompleted("adamFood")) {
             // Quest complete - casual chat
-            createDialogue(global.adamAfterFood, [], batteryCost);
+            createDialogue(global.adamAfterFood, [], 0);
         }
         else if (isQuestActive("adamFood")) {
             // Quest active - check if player has coffee

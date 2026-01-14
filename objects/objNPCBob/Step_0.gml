@@ -1,15 +1,15 @@
-// Decrease cooldown
+//Decrease cooldown
 if (talkCooldown > 0) {
     talkCooldown--;
 }
 
-// Don't process if dialogue exists
+//Don't process if dialogue exists
 if (instance_exists(objDialogue)) {
     talkCooldown = 15;
     exit;
 }
     
-if(isQuestActive("alexCoffee") || isQuestActive("adamFood")) {
+if(isQuestActive("alexCoffee") || isQuestActive("adamFood") || isQuestActive("ameliaWifi")) {
     hasQuest = true;
     questIconFrame += questIconSpeed;
     if(questIconFrame >= sprite_get_number(sprQuest) && questIconFrame >= sprite_get_number(sprQuest2)) {
@@ -28,7 +28,7 @@ if (instance_exists(objPlayer) && distance_to_object(objPlayer) < 15)
             show_debug_message("Player received new food for Adam");
         }
         
-        // Create dialogue with choices
+        //Create dialogue with choices
         else if (isQuestActive("alexCoffee")){
         createDialogue(
             global.bobWorkTalk, 
@@ -37,31 +37,59 @@ if (instance_exists(objPlayer) && distance_to_object(objPlayer) < 15)
                     text: "Coffee, please", 
                     dialogue: global.bobCoffeeOrder, 
                     action: function() {
-                        // Give player coffee if Alex's quest is active
-                        //if (isQuestActive("alexCoffee")) {
+                        //Give player coffee if Alex's quest is active
                             global.playerHasCoffee = true;
                             show_debug_message("Player received coffee for Alex");
-                        //}
                     }
                 },
                 { 
                     text: "I'd like some tea", 
                     dialogue: global.bobTeaOrder, 
                     action: function() {
-                        // Tea doesn't help with quest
+                        //Tea doesn't help with quest
                     }
                 },
                 { 
                     text: "Nothing, thanks", 
                     dialogue: global.bobNothingOrder, 
                     action: function() {
-                        // Nothing happens
+                        //Nothing happens
                     }
-                }
+                },
             ],
             batteryCost
         ); 
-        } 
+        } else if (isQuestActive("ameliaWifi")){
+        createDialogue(
+            global.bobWorkTalk, 
+            [
+                { 
+                    text: "Can I have the wifi password please?", 
+                    dialogue: global.bobWifiPassword, 
+                    action: function() {
+                        //Give player the Wifi password if Amelia's quest is active
+                            global.playerHasWifi = true;
+                            show_debug_message("Player received the wifi for Amelia");
+                    }
+                },
+                { 
+                    text: "I'd like some tea", 
+                    dialogue: global.bobTeaOrder, 
+                    action: function() {
+                        //Tea doesn't help with quest
+                    }
+                },
+                { 
+                    text: "Nothing, thanks", 
+                    dialogue: global.bobNothingOrder, 
+                    action: function() {
+                        //Nothing happens
+                    }
+                },
+            ],
+            batteryCost
+        ); 
+        }
     }
 }
 else{

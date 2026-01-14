@@ -1,11 +1,11 @@
-// Decrease cooldown
+//Decrease cooldown
 if (talkCooldown > 0) {
     talkCooldown--;
 }
 
-// Don't process if dialogue exists
+//Don't process if dialogue exists
 if (instance_exists(objDialogue)) {
-    // Set cooldown while dialogue is open
+    //Set cooldown while dialogue is open
     talkCooldown = 15;
     exit;
 }
@@ -26,5 +26,5 @@ if (instance_exists(objPlayer) && distance_to_object(objPlayer) < 12)
 }
 else{
     canTalk = false;
-    talkCooldown = 0; // Reset cooldown when you walk away
+    talkCooldown = 0; //Reset cooldown when you walk away
 }

@@ -27,6 +27,7 @@ batteryImageIndex = 0;
 
 display_set_gui_size(150, 100);
 
-//Quest Setting
+//Quest Setting - Level 1
 global.playerHasCoffee = false;
 global.playerHasColdFood = false;
+global.playerHasWifi = false;
