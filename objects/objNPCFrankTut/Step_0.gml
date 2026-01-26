@@ -1,3 +1,6 @@
+// Inherit the parent event
+//event_inherited();
+
 //Decrease cooldown
 if (talkCooldown > 0) {
     talkCooldown--;
@@ -21,8 +24,17 @@ if (instance_exists(objPlayer) && distance_to_object(objPlayer) < 12)
 {
     canTalk = true;
     if(keyboard_check_pressed(inputKey) && talkCooldown <= 0){
-        createDialogue(dialog, batteryCost);
-        hasQuest = false;
+        
+        if(isQuestCompleted("frankTutorial")){
+            createDialogue(global.frankAfterTutorial, [], 0);
+        }
+        else{
+            createDialogue(global.frankStartTutorial, [], batteryCost);
+            completeQuest("frankTutorial");
+            hasQuest = false;
+        }    
+        
+        
     }
 }
 else{

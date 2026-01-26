@@ -11,13 +11,15 @@ global.systemInitialized = true;
 global.quests = {
     alexCoffee: false,
     adamFood: false,
-    ameliaWifi: false
+    ameliaWifi: false,
+    frankTutorial: false,
 }
 
 global.questComplete = {
     alexCoffee: false,
     adamFood: false,
-    ameliaWifi: false
+    ameliaWifi: false,
+    frankTutorial: false
 }
 
 global.playerHasCoffee = false;
@@ -29,7 +31,8 @@ global.playerHasWifi = false;
        "Alex": c_red,
        "Bob": c_purple,
        "Adam": c_aqua,
-       "Amelia": c_orange
+       "Amelia": c_orange,
+       "Frank": c_olive
    }
    
    //All dialogue definitions
@@ -120,5 +123,19 @@ global.playerHasWifi = false;
        {name: "Amelia", msg:"Oh, it says the password is incorrect, did you get the right one?"}    
    ]
 
-   //Destroy after initialization
-   instance_destroy();
+   global.frankStartTutorial = [
+       {name: "Frank", msg:"Welcome! My name is Frank, I have Social Anxiety."},
+       {name: "Frank", msg:"You will help me talk to people and have different interactions with everyone."},  
+       {name: "Frank", msg:"When you spoke to me did you notice your blue meter went down?"},
+       {name: "Frank", msg:"That is your 'Social Battery' when speaking to people that will gradually decrease depending on the situation"},  
+       {name: "Frank", msg:"By holding down 'E' you can recharge your battery using your headphones! This is known as music therapy."},  
+       {name: "Frank", msg:"Watch out however, your headphone battery will run out and you will no longer be able to use them"},
+       {name: "Frank", msg:"If you run out of social battery its game over. Run through the exit behind me to begin the game!"},
+   ]
+  
+   global.frankAfterTutorial = [
+       {name: "Frank", msg:"Good Luck!"}    
+   ]
+
+//Destroy after initialization
+instance_destroy();

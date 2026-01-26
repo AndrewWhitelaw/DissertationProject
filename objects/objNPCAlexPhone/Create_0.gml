@@ -6,5 +6,7 @@ dialog = global.alexAfterQuest;
 dialog = global.alexReceiveCoffee;
 batteryCost = 10; 
 
-hasQuest = true;
+if(!isQuestCompleted("alexCoffee")){
+    hasQuest = true;
+}
 questSprite = sprQuest;

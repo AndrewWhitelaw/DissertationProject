@@ -7,6 +7,8 @@ dialog = global.ameliaWrongPassword;
 dialog = global.ameliaReceiveWifi;
 dialog = global.ameliaAfterWifi;
 
-hasQuest = true;
+if(!isQuestCompleted("ameliaWifi")){
+    hasQuest = true;
+}
 questSprite = sprQuest3;
 batteryCost = 15;

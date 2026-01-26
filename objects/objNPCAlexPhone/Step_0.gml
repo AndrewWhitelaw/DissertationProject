@@ -24,6 +24,7 @@ if (instance_exists(objPlayer) && distance_to_object(objPlayer) < 8)
         if (isQuestCompleted("alexCoffee")) {
             // Quest complete - casual chat
             createDialogue(global.alexAfterQuest, [], 0);
+            hasQuest = false;
         }
         else if (isQuestActive("alexCoffee")) {
             // Quest active - check if player has coffee
