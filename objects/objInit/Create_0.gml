@@ -13,13 +13,15 @@ global.quests = {
     adamFood: false,
     ameliaWifi: false,
     frankTutorial: false,
+    frankCongrats: false
 }
 
 global.questComplete = {
     alexCoffee: false,
     adamFood: false,
     ameliaWifi: false,
-    frankTutorial: false
+    frankTutorial: false,
+    frankCongrats: false
 }
 
 global.playerHasCoffee = false;
@@ -125,7 +127,8 @@ global.playerHasWifi = false;
 
    global.frankStartTutorial = [
        {name: "Frank", msg:"Welcome! My name is Frank, I have Social Anxiety."},
-       {name: "Frank", msg:"You will help me talk to people and have different interactions with everyone."},  
+       {name: "Frank", msg:"You will help me talk to people and have different interactions with everyone."},
+       {name: "Frank", msg:"Make sure to talk to everyone that has a '!' above their head!"},   
        {name: "Frank", msg:"When you spoke to me did you notice your blue meter went down?"},
        {name: "Frank", msg:"That is your 'Social Battery' when speaking to people that will gradually decrease depending on the situation"},  
        {name: "Frank", msg:"By holding down 'E' you can recharge your battery using your headphones! This is known as music therapy."},  
@@ -135,6 +138,18 @@ global.playerHasWifi = false;
   
    global.frankAfterTutorial = [
        {name: "Frank", msg:"Good Luck!"}    
+   ]
+
+   global.frankLevel1Complete = [
+       {name: "Frank", msg:"Congratulations! You just completed three different types of social interactions that people with social anxiety often struggle with."},
+       {name: "Frank", msg:"Alex needed help - a simple favor. For many with social anxiety, offering help means putting yourself out there and risking judgment, so they stay invisible instead."},
+       {name: "Frank", msg:"Adam required confrontation. Speaking up about a problem feels like 'making a scene.' People with social anxiety often suffer in silence to avoid standing out."}, 
+       {name: "Frank", msg:"Amelia tested your memory and communication with authority. Asking staff simple questions can feel like bothering someone important - easier to just not ask at all."},
+   ]
+
+   global.frankAfterLevel1Complete = [
+    {name: "Frank", msg:"You handled it all perfectly! That wasn't easy, but you pushed through."},
+    {name: "Frank", msg:"Past the trees you'll find a recharge point and the second level. Good Luck!"}
    ]
 
 //Destroy after initialization

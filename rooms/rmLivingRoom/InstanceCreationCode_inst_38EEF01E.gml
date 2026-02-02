@@ -1,4 +1,4 @@
-target_x = 663;
-target_y = 166;
-target_rm = rmOutside;
+target_x = 54;
+target_y = 128;
+target_rm = rmLevel2Outside;
 target_face = DOWN;
