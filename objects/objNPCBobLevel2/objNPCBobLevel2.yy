@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"objNPCAlex2",
+  "%Name":"objNPCBobLevel2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objNPCAlex2",
+  "name":"objNPCBobLevel2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprNpcAlexPhone",
-    "path":"sprites/sprNpcAlexPhone/sprNpcAlexPhone.yy",
+    "name":"sprNPCBobLevel2",
+    "path":"sprites/sprNPCBobLevel2/sprNPCBobLevel2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
