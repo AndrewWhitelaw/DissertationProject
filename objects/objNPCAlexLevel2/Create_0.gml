@@ -1,5 +1,9 @@
 // Inherit the parent event
 event_inherited();
 depth = -bbox_bottom;
-hasQuest = true;
+if(!isQuestCompleted("alexHost")){
+    hasQuest = true;
+}
 questSprite = sprQuest;
+
+

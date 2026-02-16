@@ -40,7 +40,7 @@ global.playerHasWifi = false;
    //All dialogue definitions
    global.welcomeDialog = [
        {name: "Alex", msg: "This Cafe here is great!"},
-       {name: "Frank", msg: "Good to know, guess I will check it out."}
+       {name: "Frank", msg: "Good to know, guess I will check it out."} 
    ]
    
    global.adamCafeTalk = [
@@ -76,7 +76,8 @@ global.playerHasWifi = false;
    ]
    
    global.alexAfterQuest = [
-       {name: "Alex", msg: "This coffee hits the spot! Thanks again."}
+       {name: "Alex", msg: "This coffee hits the spot! Thanks again."},
+       {name: "Alex", msg: "I'm having a house party later on tonight, you should come along it will be fun!"}
    ]
 
    global.bobWorkTalk = [

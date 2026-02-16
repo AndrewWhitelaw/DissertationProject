@@ -32,9 +32,9 @@ if(showingChoices) {
     
         
         //Deduct additional battery cost if any
-        //if(chosenCost > 0 && instance_exists(objPlayer)) {
-        //    objPlayer.socialBattery -= chosenCost;
-        //}
+        if(chosenCost > 0 && instance_exists(objPlayer)) {
+            objPlayer.socialBattery -= chosenCost;
+        }
         
         //Execute the action if it exists
         if (chosenAction != undefined) {

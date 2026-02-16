@@ -81,3 +81,10 @@ depth = -bbox_bottom;
 // Clamp between 0 and max
 socialBattery = clamp(socialBattery, 0, maxSocialBattery); //Clamp - Restricts a number to stay in the range. So Social Battery can only be between 0-100
 displayedBattery += (socialBattery - displayedBattery) * fillLerpSpeed; //Makes the bar fill up smoothly instead of janky/clunky movements
+
+if(room == rmLivingRoom){
+    socialBattery -= 0.03 //Slowly lose social battery during the second level.
+} 
+if(instance_exists(objCup) && isQuestActive("ameliaDrink") && distance_to_object(objCup) < 50){
+    socialBattery -= 0.08; 
+}
