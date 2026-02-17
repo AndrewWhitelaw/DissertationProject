@@ -47,6 +47,7 @@
     {"name":"objWarpBlock","order":5,"path":"objects/objWarpBlock/objWarpBlock.yy",},
     {"name":"rmBedRoom","order":1,"path":"rooms/rmBedRoom/rmBedRoom.yy",},
     {"name":"rmCafe","order":3,"path":"rooms/rmCafe/rmCafe.yy",},
+    {"name":"rmClassroom","order":6,"path":"rooms/rmClassroom/rmClassroom.yy",},
     {"name":"rmLevel2Outside","order":5,"path":"rooms/rmLevel2Outside/rmLevel2Outside.yy",},
     {"name":"rmOutside","order":2,"path":"rooms/rmOutside/rmOutside.yy",},
     {"name":"rmTutorial","order":4,"path":"rooms/rmTutorial/rmTutorial.yy",},

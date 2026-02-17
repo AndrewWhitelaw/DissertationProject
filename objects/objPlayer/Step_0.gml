@@ -13,10 +13,13 @@ rightKey = keyboard_check(vk_right);  //Right arrow
 leftKey = keyboard_check(vk_left); //Left arrow
 upKey = keyboard_check(vk_up); //Up arrow
 downKey = keyboard_check(vk_down); //Down arrow
-
-xSpeed = (rightKey - leftKey) * moveSpeed; //Press right and not left = 1 go right, vice versa with left = -1
-ySpeed = (downKey - upKey) * moveSpeed; //Same as above
-
+if(keyboard_check(vk_shift)){ // Sprint
+	xSpeed = (rightKey - leftKey) * moveSpeed * 1.5; 
+	ySpeed = (downKey - upKey) * moveSpeed * 1.5;
+} else { //No Sprint
+	xSpeed = (rightKey - leftKey) * moveSpeed; //Press right and not left = 1 go right, vice versa with left = -1
+	ySpeed = (downKey - upKey) * moveSpeed;  //Same as above
+}
 //pauser
 if instance_exists(objPause) || instance_exists(objHeadphonesOn) || instance_exists(objDialogue){
     xSpeed = 0;

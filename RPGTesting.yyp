@@ -70,6 +70,7 @@
     {"id":{"name":"objWarpBlock","path":"objects/objWarpBlock/objWarpBlock.yy",},},
     {"id":{"name":"rmBedRoom","path":"rooms/rmBedRoom/rmBedRoom.yy",},},
     {"id":{"name":"rmCafe","path":"rooms/rmCafe/rmCafe.yy",},},
+    {"id":{"name":"rmClassroom","path":"rooms/rmClassroom/rmClassroom.yy",},},
     {"id":{"name":"rmLevel2Outside","path":"rooms/rmLevel2Outside/rmLevel2Outside.yy",},},
     {"id":{"name":"rmLivingRoom","path":"rooms/rmLivingRoom/rmLivingRoom.yy",},},
     {"id":{"name":"rmOutside","path":"rooms/rmOutside/rmOutside.yy",},},
@@ -130,6 +131,7 @@
     {"roomId":{"name":"rmTutorial","path":"rooms/rmTutorial/rmTutorial.yy",},},
     {"roomId":{"name":"rmBedRoom","path":"rooms/rmBedRoom/rmBedRoom.yy",},},
     {"roomId":{"name":"rmLivingRoom","path":"rooms/rmLivingRoom/rmLivingRoom.yy",},},
+    {"roomId":{"name":"rmClassroom","path":"rooms/rmClassroom/rmClassroom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
