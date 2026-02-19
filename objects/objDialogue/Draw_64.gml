@@ -22,7 +22,7 @@ dy += 10;
 
 if(showingChoices) {
     //Draw choices
-    draw_set_font(Font1);
+    draw_set_font(FontMenu);
     draw_set_halign(fa_left);
     draw_set_valign(fa_top);
     
@@ -38,7 +38,7 @@ if(showingChoices) {
     }
 } else {
 	if(currentMessage >= 0 && currentMessage < array_length(messages)) {
-        draw_set_font(Font1);
+        draw_set_font(FontMenu);
         var name = messages[currentMessage].name; 
         draw_set_colour(global.charColours[$ name]);
         draw_text(dx, dy, name); 

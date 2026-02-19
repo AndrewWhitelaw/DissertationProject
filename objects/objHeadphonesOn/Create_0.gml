@@ -7,7 +7,7 @@ sprite[HEADPHONES] = sprPlayerHeadphonesOn;
 
 //Initial state of animation
 face = DOWN;
-
+display_set_gui_size(1280, 720);
 mask_index = sprite[DOWN]; //Collision for player ALWAYS the down sprite
 
 //Sprite

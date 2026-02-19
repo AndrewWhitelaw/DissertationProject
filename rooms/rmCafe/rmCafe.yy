@@ -28,6 +28,7 @@
     {"name":"inst_12929C9B","path":"rooms/rmCafe/rmCafe.yy",},
     {"name":"inst_56258CAD","path":"rooms/rmCafe/rmCafe.yy",},
     {"name":"inst_AA62A37","path":"rooms/rmCafe/rmCafe.yy",},
+    {"name":"inst_7F099C48","path":"rooms/rmCafe/rmCafe.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -57,6 +58,7 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":48.0,},
         {"$GMRInstance":"v4","%Name":"inst_33CBBB1C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_33CBBB1C","objectId":{"name":"objInit","path":"objects/objInit/objInit.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":368.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_56258CAD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56258CAD","objectId":{"name":"objNPCAmelia","path":"objects/objNPCAmelia/objNPCAmelia.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":112.0,},
+        {"$GMRInstance":"v4","%Name":"inst_7F099C48","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7F099C48","objectId":{"name":"objMenuPause","path":"objects/objMenuPause/objMenuPause.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":368.0,"y":16.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Deocration","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Deocration","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":25,"SerialiseWidth":32,"TileCompressedData":[
           -12,-2147483648,-2,0,-30,-2147483648,-2,0,-52,-2147483648,1,0,-7,-2147483648,-5,0,-19,-2147483648,1,

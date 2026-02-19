@@ -1,3 +1,9 @@
+if (room == rmGameOver) {
+    visible = false; // Hide player
+    exit; // Stop running the rest of the step event
+}
+
+
 // Hide player while headphones animation is active
 if (instance_exists(objHeadphonesOn)) {
     visible = false;
@@ -90,4 +96,10 @@ if(room == rmLivingRoom){
 } 
 if(instance_exists(objCup) && isQuestActive("ameliaDrink") && distance_to_object(objCup) < 50){
     socialBattery -= 0.08; 
+}
+
+if(socialBattery <= 0 && !gameOverTriggered){
+    gameOverTriggered = true;
+    global.previousRoom = room; // Save to GLOBAL variable
+    room_goto(rmGameOver);
 }

@@ -1,3 +1,4 @@
+display_set_gui_size(150, 100);
 //Top left
 var uiX = 0; 
 var uiY = 0; 
@@ -23,7 +24,6 @@ draw_sprite_stretched(
     fillRatio * borderWidth, //Calculates the amount of bar left
     borderHeight - offsetX
 );
-
 //Border to finish
 draw_sprite(sprSocialBatteryBorder, 0, uiX, uiY);
 
@@ -31,4 +31,4 @@ var battery = instance_find(objHeadphoneBattery, 0);
 if (instance_exists(battery)) {
     draw_sprite(sprHeadphoneBattery, battery.image_index, 134, 0);
 }
-
+display_set_gui_size(1280, 720);

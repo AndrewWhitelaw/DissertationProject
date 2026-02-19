@@ -95,6 +95,7 @@
     {"name":"inst_5D0D81CA","path":"rooms/rmOutside/rmOutside.yy",},
     {"name":"inst_359050A1","path":"rooms/rmOutside/rmOutside.yy",},
     {"name":"inst_26012771","path":"rooms/rmOutside/rmOutside.yy",},
+    {"name":"inst_2196241","path":"rooms/rmOutside/rmOutside.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -190,6 +191,7 @@
         {"$GMRInstance":"v4","%Name":"inst_7BBDA421","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7BBDA421","objectId":{"name":"objInit","path":"objects/objInit/objInit.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":848.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_5296AF0C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5296AF0C","objectId":{"name":"objNPCFrankLevel1","path":"objects/objNPCFrankLevel1/objNPCFrankLevel1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":368.0,"y":240.0,},
         {"$GMRInstance":"v4","%Name":"inst_26012771","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_26012771","objectId":{"name":"objWarpBlock","path":"objects/objWarpBlock/objWarpBlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":3.0,"x":0.0,"y":256.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2196241","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2196241","objectId":{"name":"objMenuPause","path":"objects/objMenuPause/objMenuPause.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":848.0,"y":16.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Environment","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Environment","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":54,"TileCompressedData":[
           -75,-2147483648,-7,235,-47,-2147483648,7,235,409,410,411,412,413,235,-24,-2147483648,1,1,-22,-2147483648,

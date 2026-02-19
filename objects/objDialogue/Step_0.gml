@@ -57,10 +57,10 @@ if(showingChoices) {
             instance_destroy();
         }
     }
-    exit; //Exit here - don't run normal dialogue code
+    exit; //Exit here
 }
 
-//Normal dialogue code (only runs if NOT showing choices)
+//Normal dialogue code
 var str = messages[currentMessage].msg;
 if(currentChar < string_length(str))
 {

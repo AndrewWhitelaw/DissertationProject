@@ -22,10 +22,11 @@ headphoneCharge = 100;
 maxHeadphoneCharge = headphoneCharge;
 headphoneImageIndex = 0;
 
-fainted = false;
+gameOverTriggered = false;
 batteryImageIndex = 0;
 
-display_set_gui_size(150, 100);
+//display_set_gui_size(150, 100);
+//display_set_gui_size(1280, 720);
 
 //Quest Setting - Level 1
 global.playerHasCoffee = false;

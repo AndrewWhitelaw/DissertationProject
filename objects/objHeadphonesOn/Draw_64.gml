@@ -34,5 +34,5 @@ var battery = instance_find(objHeadphoneBattery, 0);
 if (instance_exists(battery)) {
     draw_sprite(sprHeadphoneBattery, battery.image_index, 134, 0);
 }
-
+display_set_gui_size(1280, 720);
 //draw_sprite(sprSocialBattery, floor(batteryImageIndex), 0, 0);
