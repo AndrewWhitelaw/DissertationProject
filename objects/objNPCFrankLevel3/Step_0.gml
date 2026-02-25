@@ -21,7 +21,8 @@ if (instance_exists(objPlayer) && distance_to_object(objPlayer) < 12)
 {
     canTalk = true;
     if(keyboard_check_pressed(inputKey) && talkCooldown <= 0){
-        createDialogue(global.frankIntro3, [], 0);
+        createDialogue(global.frankVictorySpeech, [], 0);
+        completeQuest("frankVictory")
         hasQuest = false;
     }
 }

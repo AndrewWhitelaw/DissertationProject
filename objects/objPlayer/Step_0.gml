@@ -1,4 +1,4 @@
-if (room == rmGameOver) {
+if (room == rmGameOver or  room == rmVictory) {
     visible = false; // Hide player
     exit; // Stop running the rest of the step event
 }
@@ -87,7 +87,7 @@ if xSpeed == 0 && ySpeed == 0{
 //depth
 depth = -bbox_bottom;
 
-// Clamp between 0 and max
+//Clamp between 0 and max
 socialBattery = clamp(socialBattery, 0, maxSocialBattery); //Clamp - Restricts a number to stay in the range. So Social Battery can only be between 0-100
 displayedBattery += (socialBattery - displayedBattery) * fillLerpSpeed; //Makes the bar fill up smoothly instead of janky/clunky movements
 
@@ -98,8 +98,16 @@ if(instance_exists(objCup) && isQuestActive("ameliaDrink") && distance_to_object
     socialBattery -= 0.08; 
 }
 
+if(instance_exists(objDialogue)){
+    exit; 
+}
+
 if(socialBattery <= 0 && !gameOverTriggered){
     gameOverTriggered = true;
-    global.previousRoom = room; // Save to GLOBAL variable
+    global.previousRoom = room;
     room_goto(rmGameOver);
-}
+} 
+else if (!gameVictoryTriggered && isQuestCompleted("frankVictory")){
+    gameVictoryTriggered = true;
+    room_goto(rmVictory);
+}   

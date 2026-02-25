@@ -61,6 +61,7 @@
     {"name":"rmLevel2Outside","order":5,"path":"rooms/rmLevel2Outside/rmLevel2Outside.yy",},
     {"name":"rmOutside","order":2,"path":"rooms/rmOutside/rmOutside.yy",},
     {"name":"rmTutorial","order":4,"path":"rooms/rmTutorial/rmTutorial.yy",},
+    {"name":"rmVictory","order":14,"path":"rooms/rmVictory/rmVictory.yy",},
     {"name":"RoomUI","order":17,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"scrDialogueCode","order":1,"path":"scripts/scrDialogueCode/scrDialogueCode.yy",},
     {"name":"scrQuests","order":2,"path":"scripts/scrQuests/scrQuests.yy",},

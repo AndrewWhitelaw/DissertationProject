@@ -1,5 +1,5 @@
 //Check if already initialized
-if (variable_global_exists("systemInitialized")) {
+if (variable_global_exists("systemInitialized2")) {
     instance_destroy();
     exit;
 }

@@ -23,6 +23,7 @@ maxHeadphoneCharge = headphoneCharge;
 headphoneImageIndex = 0;
 
 gameOverTriggered = false;
+gameVictoryTriggered = false;
 batteryImageIndex = 0;
 
 //display_set_gui_size(150, 100);
