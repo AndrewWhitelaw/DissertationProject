@@ -33,3 +33,5 @@ batteryImageIndex = 0;
 global.playerHasCoffee = false;
 global.playerHasColdFood = false;
 global.playerHasWifi = false;
+
+//Change to see if worked
