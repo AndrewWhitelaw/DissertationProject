@@ -187,15 +187,15 @@ As GameMaker Studio was a new development environment, the project involved lear
 
 ## Main Menu
 
-![Main Menu](screenshots/menu.png)
+![Main Menu]("C:\Users\adwhi\OneDrive\Pictures\Screenshots\menu.png")
 
 ## Gameplay
 
-![Gameplay](screenshots/gameplay.png)
+![Gameplay](Screenshots/gameplay.png)
 
 ## Social Battery System
 
-![Battery UI](screenshots/battery.png)
+![Battery UI](Screenshots/battery.png)
 
 ## Headphone Mechanic
 
