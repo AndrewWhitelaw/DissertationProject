@@ -2,7 +2,7 @@
 
 *A GameMaker Studio dissertation project exploring the representation of social anxiety through interactive gameplay.*
 
-![Gameplay Screenshot](screenshots/gameplay)
+![Gameplay Screenshot](screenshots/gameplay.png)
 
 ## Overview
 
@@ -187,19 +187,19 @@ As GameMaker Studio was a new development environment, the project involved lear
 
 ## Main Menu
 
-![Main Menu](menu.png)
+![Main Menu](screenshots/menu.png)
 
 ## Gameplay
 
-![Gameplay](gameplay.png)
+![Gameplay](screenshots/gameplay.png)
 
 ## Social Battery System
 
-![Battery UI](socialBatterySystem.png)
+![Battery UI](screenshots/socialBatterySystem.png)
 
 ## Headphone Mechanic
 
-![Headphones](headphoneSystem.png)
+![Headphones](screenshots/headphoneSystem.png)
 
 ---
 
