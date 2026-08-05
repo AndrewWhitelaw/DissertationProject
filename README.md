@@ -187,7 +187,7 @@ As GameMaker Studio was a new development environment, the project involved lear
 
 ## Main Menu
 
-![Main Menu](C:\Users\adwhi\OneDrive\Pictures\Screenshots\menu.png)
+![Main Menu](Screenshots\menu.png)
 
 ## Gameplay
 
