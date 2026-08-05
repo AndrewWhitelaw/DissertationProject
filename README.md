@@ -40,7 +40,7 @@ Players can use headphones as a coping mechanism to restore Social Battery. Howe
 
 This creates a gameplay loop based around:
 
-Social interaction -> Social battery depletion -> Decision Making -> Recovery through coping mechanisms -> continue progression
+Social interaction -> Social battery depletion -> Decision Making -> Recovery through coping mechanisms -> Continue progression
 
 The intention is not to simulate social anxiety perfectly, but to provide an interactive representation of some experiences associated with it.
 
@@ -220,6 +220,8 @@ git clone https://github.com/USERNAME/REPOSITORY.git
 2. Open the project file in GameMaker Studio.
 3. Run the project.
 
+---
+
 ## Future Improvements
 
 Potential improvements for future development include:
@@ -231,6 +233,8 @@ Potential improvements for future development include:
 - Expand dialogue choices
 - More detailed animations
 - Audio being added/improved
+
+---
 
 ## What I Learned
 
@@ -245,6 +249,8 @@ This project helped develop my skills in:
 - Using version control effectively
 
 It also strengthened my understanding of how software can be used to explore and communicate human experiences
+
+---
 
 ## Acknoledgements
 
