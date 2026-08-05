@@ -2,7 +2,7 @@
 
 *A GameMaker Studio dissertation project exploring the representation of social anxiety through interactive gameplay.*
 
-![Gameplay Screenshot](screenshots/gameplay.png)
+![Gameplay Screenshot](screenshots/gameplay)
 
 ## Overview
 
