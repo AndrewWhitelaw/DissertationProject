@@ -187,19 +187,19 @@ As GameMaker Studio was a new development environment, the project involved lear
 
 ## Main Menu
 
-![Main Menu](screenshots/menu.png)
+![Main Menu](screenshots\menu.png)
 
 ## Gameplay
 
-![Gameplay](screenshots/gameplay.png)
+![Gameplay](screenshots\gameplay.png)
 
 ## Social Battery System
 
-![Battery UI](screenshots/socialBatterySystem.png)
+![Battery UI](screenshots\socialBatterySystem.png)
 
 ## Headphone Mechanic
 
-![Headphones](screenshots/headphoneSystem.png)
+![Headphones](screenshots\headphoneSystem.png)
 
 ---
 
