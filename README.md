@@ -187,7 +187,7 @@ As GameMaker Studio was a new development environment, the project involved lear
 
 ## Main Menu
 
-![Main Menu](Screenshots\menu.png)
+![Main Menu](menu.png)
 
 ## Gameplay
 
