@@ -220,3 +220,37 @@ git clone https://github.com/USERNAME/REPOSITORY.git
 2. Open the project file in GameMaker Studio.
 3. Run the project.
 
+## Future Improvements
+
+Potential improvements for future development include:
+
+- Additional social scenarios
+- More advanced NPC behaviour
+- Improved accessibility options
+- Additional coping mechanics
+- Expand dialogue choices
+- More detailed animations
+- Audio being added/improved
+
+## What I Learned
+
+This project helped develop my skills in:
+- Designing and implementing complete software projects
+- Managing a long-term development cycle
+- Agile development
+- Object-oriented programming concepts
+- Debugging complex systems
+- User-centred design
+- Iterative development based of feedback
+- Using version control effectively
+
+It also strengthened my understanding of how software can be used to explore and communicate human experiences
+
+## Acknoledgements
+
+A special thanks to:
+
+- My dissertation supervisor for guidance throughout development
+- The University of Strathclyde Computer Science Department
+- Asset creators who provided licensed resources used within the project
+- The GameMaker community and tutorials that supported development
