@@ -6,7 +6,7 @@
 
 ## Overview
 
-**I Hate Attending Parties** is a 2D top-down pixel-art game developed as my final-year dissertation project for my BSc (Hons) Computer Science degree.
+**A Room Full of Eyes** is a 2D top-down pixel-art game developed as my final-year dissertation project for my BSc (Hons) Computer Science degree.
 
 The project explores how video games can represent experiences of social anxiety through gameplay mechanics rather than traditional storytelling alone.
 
