@@ -245,14 +245,14 @@ This project helped develop my skills in:
 - Object-oriented programming concepts
 - Debugging complex systems
 - User-centred design
-- Iterative development based of feedback
+- Iterative development based off feedback
 - Using version control effectively
 
 It also strengthened my understanding of how software can be used to explore and communicate human experiences
 
 ---
 
-## Acknoledgements
+## Acknowledgement
 
 A special thanks to:
 
